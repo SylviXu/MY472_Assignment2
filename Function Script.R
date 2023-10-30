@@ -22,6 +22,7 @@ transformed_economics <- function(y1, y2){
     summarise(Year = y1, 
               Date = date, 
               Max_pcc = per_capita_consumption)
+  
   #Transform 2.
   transformed_data2 <- economics %>%
     #Add a column showing the month-on-month change in the broad unemployment rate.
